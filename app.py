@@ -46,7 +46,7 @@ image = Image.open('me.jpeg')
 st.image(image, width=350)
 
 
-st.title("Reconocimiento Óptico de Caracteres")
+st.title("Pasar de imagen a texto")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
 
 cam_ = st.checkbox("Usar Cámara")
